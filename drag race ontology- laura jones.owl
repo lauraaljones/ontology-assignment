@@ -1,0 +1,1812 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#"
+     xml:base="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:dragrace="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Definition"/>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#References -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#References">
+        <References>http://rupaulsdragrace.wikia.com/wiki/RuPaul%27s_Drag_Race_(Season_9)
+http://rupaulsdragrace.wikia.com/wiki/RuPaul%27s_Drag_Race_(Season_8)
+http://rupaulsdragrace.wikia.com/wiki/RuPaul%27s_Drag_Race_(Season_7)</References>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#has_drag_style -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#has_drag_style">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_season -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_season">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_state -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_state">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#placed -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#placed">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Acid_Betty_dragname -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Acid_Betty_dragname">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Name"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#has_drag_style"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Fashion_Queen_dragtype"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_season"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Season_8_season"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_state"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#New_York_State"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#placed"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#8_ranking_"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>A drag performer from New York. She competed on the 8th season of Rupaul&apos;s Drag Race. She finished 8th.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Aja_dragname -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Aja_dragname">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Name"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#has_drag_style"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Fashion_Queen_dragtype"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_season"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Season_9_season"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_state"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#New_York_State"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#placed"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#9_ranking_"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>A drag performer from New York. She competed on the 9th season of Rupaul&apos;s Drag Race. She finished 9th.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Alexis_Michelle_dragname -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Alexis_Michelle_dragname">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Name"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#has_drag_style"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Pageant_Queen_dragtype"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_season"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Season_9_season"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_state"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#New_York_State"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#placed"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#5_ranking_"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>A drag performer from New York. She competed on the 9th season of Rupaul&apos;s Drag Race. She finished 5th.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Arizona_State -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Arizona_State">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#State_They_Are_From"/>
+        <Definition>State of Arizona.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Bob_the_Drag_Queen_dragname -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Bob_the_Drag_Queen_dragname">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Name"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#has_drag_style"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Comedy_Queen_dragtype"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_season"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Season_8_season"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_state"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#New_York_State"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#placed"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#1_ranking_"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>A drag performer from New York. She competed on the 8th season of Rupaul&apos;s Drag Race. She finished 1st and was the winner of the season.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#California_State -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#California_State">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#State_They_Are_From"/>
+        <Definition>State of California.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Charlie_Hides_dragname -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Charlie_Hides_dragname">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Name"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#has_drag_style"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Comedy_Queen_dragtype"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_season"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Season_9_season"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_state"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Massachusetts_State"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#placed"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#12_ranking_"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>A drag performer from Massachusetts. She competed on the 9th season of Rupaul&apos;s Drag Race. She finished 12th.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Comedy_Queen_dragtype -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Comedy_Queen_dragtype">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Type"/>
+        <Definition>A drag style performed by queens who use comedy as their performance style.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Cynthia_Lee_Fontaine_dragname -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Cynthia_Lee_Fontaine_dragname">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Name"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_season"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#8_ranking_"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_season"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#9_ranking_"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#placed"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#10_ranking_"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#has_drag_style"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Comedy_Queen_dragtype"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_state"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Puerto_Rico_State"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>A drag performer from Puerto Rico, territory in the United States. She competed on the 8th season of Rupaul&apos;s Drag Race and the 9th season of Rupaul&apos;s Drag Race. She finished 10th on each season.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Dax_ExclamationPoint_dragname -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Dax_ExclamationPoint_dragname">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Name"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#has_drag_style"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Fashion_Queen_dragtype"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_season"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Season_8_season"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_state"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Georgia_State"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#placed"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#11_ranking_"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>A drag performer from Georgia. She competed on the 8th season of Rupaul&apos;s Drag Race. She finished 11th.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Derrick_Barry_dragname -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Derrick_Barry_dragname">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Name"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#has_drag_style"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Pageant_Queen_dragtype"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_season"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Season_8_season"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_state"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Nevada_State"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#placed"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#5_ranking_"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>A drag performer from Nevada. She competed on the 8th season of Rupaul&apos;s Drag Race. She finished 5th.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Name -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Name">
+        <Definition>The stage name of a drag performer.
+A drag performer is usually a gay man or transgender/ nonbinary woman who dresses up in exaggerated female clothing.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Queen_Season -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Queen_Season">
+        <Definition>The season of RuPaul&apos;s Drag Race that the queen was featured on.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Type">
+        <Definition>The type of drag that the competitor does on the show and professionally.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Farrah_Moan_dragname -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Farrah_Moan_dragname">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Name"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#has_drag_style"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Fashion_Queen_dragtype"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_season"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Season_9_season"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_state"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Nevada_State"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#placed"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#8_ranking_"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>A drag performer from Nevada. She competed on the 9th season of Rupaul&apos;s Drag Race. She finished 8th.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Fashion_Queen_dragtype -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Fashion_Queen_dragtype">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Type"/>
+        <Definition>A drag style performed by queens who use elaborate costumes and makeup.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Florida_State -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Florida_State">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#State_They_Are_From"/>
+        <Definition>State of Florida.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Georgia_State -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Georgia_State">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#State_They_Are_From"/>
+        <Definition>State of Georgia.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Ginger_Minj_dragname -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Ginger_Minj_dragname">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Name"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#has_drag_style"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Comedy_Queen_dragtype"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_season"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Season_7_season"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_state"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Florida_State"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#placed"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#2_ranking_"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>A drag performer from Florida. She competed on the 7th season of Rupaul&apos;s Drag Race. She finished 2nd.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Illinois_State -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Illinois_State">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#State_They_Are_From"/>
+        <Definition>State of Illinois.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Iowa_State -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Iowa_State">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#State_They_Are_From"/>
+        <Definition>State of Iowa.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Jaidynn_Diore_Fierce_dragname -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Jaidynn_Diore_Fierce_dragname">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Name"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#has_drag_style"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Comedy_Queen_dragtype"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_season"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Season_7_season"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_state"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Tennessee_State"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#placed"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#8_ranking_"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>A drag performer from Tennessee. She competed on the 7th season of Rupaul&apos;s Drag Race. She finished 8th.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Jasmine_Masters_dragname -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Jasmine_Masters_dragname">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Name"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#has_drag_style"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Comedy_Queen_dragtype"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_season"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Season_7_season"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_state"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#California_State"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#placed"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#12_ranking_"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>A drag performer from California. She competed on the 7th season of Rupaul&apos;s Drag Race. She finished 12th.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Jaymes_Mansfield_dragname -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Jaymes_Mansfield_dragname">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Name"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#has_drag_style"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Comedy_Queen_dragtype"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_season"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Season_9_season"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_state"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Wisconsin_State"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#placed"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#14_ranking_"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>A drag performer from Wisconsin. She competed on the 9th season of Rupaul&apos;s Drag Race. She finished 14th.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Kandy_Ho_dragname -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Kandy_Ho_dragname">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Name"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#has_drag_style"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Pageant_Queen_dragtype"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_season"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Season_7_season"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_state"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Puerto_Rico_State"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#placed"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#10_ranking_"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>A drag performer from Puerto Rico, territory, United States. She competed on the 7th season of Rupaul&apos;s Drag Race. She finished 10th.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Kennedy_Davenport_dragname -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Kennedy_Davenport_dragname">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Name"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#has_drag_style"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Pageant_Queen_dragtype"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_season"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Season_7_season"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_state"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Texas_State"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#placed"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#4_ranking_"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>A drag performer from Texas. She competed on the 7th season of Rupaul&apos;s Drag Race. She finished 4th.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Kim_Chi_dragname -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Kim_Chi_dragname">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Name"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#has_drag_style"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Fashion_Queen_dragtype"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_season"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Season_8_season"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_state"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Illinois_State"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#placed"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#2_ranking_"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>A drag performer from Illinois. She competed on the 8th season of Rupaul&apos;s Drag Race. She finished 2nd.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Kimora_Blac_dragname -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Kimora_Blac_dragname">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Name"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#has_drag_style"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Pageant_Queen_dragtype"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_season"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Season_9_season"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_state"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Nevada_State"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#placed"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#13_ranking_"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>A drag performer from Nevada. She competed on the 9th season of Rupaul&apos;s Drag Race. She finished 13th.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Laila_McQueen_dragname -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Laila_McQueen_dragname">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Name"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#has_drag_style"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Fashion_Queen_dragtype"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_season"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Season_8_season"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_state"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Massachusetts_State"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#placed"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#12_ranking_"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>A drag performer from Massachusetts. She competed on the 8th season of Rupaul&apos;s Drag Race. She finished 12th.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Louisiana_State -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Louisiana_State">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#State_They_Are_From"/>
+        <Definition>State of Louisiana.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Massachusetts_State -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Massachusetts_State">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#State_They_Are_From"/>
+        <Definition>State of Massachussets.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Max_dragname -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Max_dragname">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Name"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#has_drag_style"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Fashion_Queen_dragtype"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_season"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Season_7_season"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_state"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Wisconsin_State"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#placed"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#9_ranking_"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>A drag performer from Wisconsin. She competed on the 7th season of Rupaul&apos;s Drag Race. She finished 9th.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Miss_Fame_dragname -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Miss_Fame_dragname">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Name"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#has_drag_style"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Fashion_Queen_dragtype"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_season"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Season_7_season"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_state"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#New_York_State"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#placed"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#7_ranking_"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>A drag performer from New York. She competed on the 7th season of Rupaul&apos;s Drag Race. She finished 7th.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Mrs._Kasha_Davis_dragname -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Mrs._Kasha_Davis_dragname">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Name"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#has_drag_style"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Comedy_Queen_dragtype"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_season"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Season_7_season"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_state"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#New_York_State"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#placed"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#11_ranking_"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>A drag performer from New York. She competed on the 7th season of Rupaul&apos;s Drag Race. She finished 11th.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Naomi_Smalls_dragname -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Naomi_Smalls_dragname">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Name"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#has_drag_style"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Fashion_Queen_dragtype"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_season"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Season_8_season"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_state"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#California_State"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#placed"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#3_ranking_"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>A drag performer from California. She competed on the 8th season of Rupaul&apos;s Drag Race. She finished 3rd.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Naysha_Lopez_dragname -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Naysha_Lopez_dragname">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Name"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#has_drag_style"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Pageant_Queen_dragtype"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_season"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#8_ranking_"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_state"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Illinois_State"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#placed"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#9_ranking_"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>A drag performer from Illinois. She competed on the 8th season of Rupaul&apos;s Drag Race. She finished 9th.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Nevada_State -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Nevada_State">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#State_They_Are_From"/>
+        <Definition>State of Nevada.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#New_York_State -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#New_York_State">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#State_They_Are_From"/>
+        <Definition>State of New York.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Pageant_Queen_dragtype -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Pageant_Queen_dragtype">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Type"/>
+        <Definition>A drag style performed by a drag queen who competes in drag pageants.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Pearl_dragname -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Pearl_dragname">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Name"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#has_drag_style"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Fashion_Queen_dragtype"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_season"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Season_7_season"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_state"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#New_York_State"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#placed"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#3_ranking_"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>A drag performer from New York. She competed on the 7th season of Rupaul&apos;s Drag Race. She finished 3rd.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Peppermint_dragname -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Peppermint_dragname">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Name"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#has_drag_style"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Comedy_Queen_dragtype"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_season"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Season_9_season"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_state"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#New_York_State"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#placed"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#2_ranking_"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>A drag performer from New York. She competed on the 9th season of Rupaul&apos;s Drag Race. She finished 2nd.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Puerto_Rico_State -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Puerto_Rico_State">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#State_They_Are_From"/>
+        <Definition>Territory of Puerto Rico.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Ranking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Ranking">
+        <Definition>The ranking in which the competitor placed in their season.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Robbie_Turner_dragname -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Robbie_Turner_dragname">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Name"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#has_drag_style"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Comedy_Queen_dragtype"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_season"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Season_8_season"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_state"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Washington_State"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#placed"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#7_ranking_"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>A drag performer from Washington. She competed on the 8th season of Rupaul&apos;s Drag Race. She finished 7th.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Sasha_Belle_dragname -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Sasha_Belle_dragname">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Name"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#has_drag_style"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Comedy_Queen_dragtype"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_season"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Season_7_season"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_state"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Iowa_State"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#placed"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#13_ranking_"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>A drag performer from Iowa. She competed on the 7th season of Rupaul&apos;s Drag Race. She finished 13th.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Sasha_Velour_dragname -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Sasha_Velour_dragname">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Name"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#has_drag_style"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Fashion_Queen_dragtype"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_season"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Season_9_season"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_state"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#New_York_State"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#placed"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#1_ranking_"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>A drag performer from New York. She competed on the 9th season of Rupaul&apos;s Drag Race. She finished 1st and was the winner of the season.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Season_7_season -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Season_7_season">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Queen_Season"/>
+        <Definition>Season 7 aired in 2015 on Logo TV.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Season_8_season -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Season_8_season">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Queen_Season"/>
+        <Definition>Season 8 aired in 2016 on Logo TV.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Season_9_season -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Season_9_season">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Queen_Season"/>
+        <Definition>Season 9 aired in 2017 on VH1.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Shea_Couleé_dragname -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Shea_Couleé_dragname">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Name"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#has_drag_style"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Fashion_Queen_dragtype"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_season"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Season_9_season"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_state"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Illinois_State"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#placed"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#3_ranking_"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>A drag performer from Illinois. She competed on the 9th season of Rupaul&apos;s Drag Race. She finished 3rd.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#State_They_Are_From -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#State_They_Are_From">
+        <Definition>The state that the competing drag queen is from.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Tempest_DuJour_dragname -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Tempest_DuJour_dragname">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Name"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#has_drag_style"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Fashion_Queen_dragtype"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_season"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Season_7_season"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_state"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Arizona_State"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#placed"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#14_ranking_"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>A drag performer from Arizona. She competed on the 7th season of Rupaul&apos;s Drag Race. She finished 14th.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Tennessee_State -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Tennessee_State">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#State_They_Are_From"/>
+        <Definition>State of Tennessee.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Texas_State -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Texas_State">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#State_They_Are_From"/>
+        <Definition>State of Texas.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Thorgy_Thor_dragname -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Thorgy_Thor_dragname">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Name"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#has_drag_style"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Comedy_Queen_dragtype"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_season"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#8_ranking_"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_state"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#New_York_State"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#placed"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#6_ranking_"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>A drag performer from New York. She competed on the 8th season of Rupaul&apos;s Drag Race. She finished 6th.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Trinity_Taylor_dragname -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Trinity_Taylor_dragname">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Name"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#has_drag_style"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Pageant_Queen_dragtype"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_season"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#9_ranking_"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_state"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Florida_State"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#placed"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#4_ranking_"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>A drag performer from Florida. She competed on the 9th season of Rupaul&apos;s Drag Race. She finished 4th.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Trixie_Mattel_dragname -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Trixie_Mattel_dragname">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Name"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#has_drag_style"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Comedy_Queen_dragtype"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_season"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Season_7_season"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_state"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Wisconsin_State"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#placed"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#6_ranking_"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>A drag performer from Wisconsin. She competed on the 7th season of Rupaul&apos;s Drag Race. She finished 6th.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Valentina_dragname -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Valentina_dragname">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Name"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#has_drag_style"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Fashion_Queen_dragtype"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_season"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Season_9_season"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_state"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#California_State"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#placed"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#7_ranking_"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>A drag performer from California. She competed on the 9th season of Rupaul&apos;s Drag Race. She finished 7th.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Violet_Chachki_dragname -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Violet_Chachki_dragname">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Name"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#has_drag_style"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Fashion_Queen_dragtype"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_season"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#7_ranking_"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_state"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Georgia_State"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#placed"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#1_ranking_"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>A drag performer from Georgia. She competed on the 7th season of Rupaul&apos;s Drag Race. She finished 1st and was the winner of the season.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Washington_State -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Washington_State">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#State_They_Are_From"/>
+        <Definition>State of Washington.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Wisconsin_State -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Wisconsin_State">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#State_They_Are_From"/>
+        <Definition>State of Wisconsin.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#1_ranking_ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#1_ranking_">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Ranking"/>
+        <Definition>1st place.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#10_ranking_ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#10_ranking_">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Ranking"/>
+        <Definition>10th place.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#11_ranking_ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#11_ranking_">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Ranking"/>
+        <Definition>11th place.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#12_ranking_ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#12_ranking_">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Ranking"/>
+        <Definition>12th place.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#13_ranking_ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#13_ranking_">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Ranking"/>
+        <Definition>13th place.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#14_ranking_ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#14_ranking_">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Ranking"/>
+        <Definition>14th place.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#2_ranking_ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#2_ranking_">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Ranking"/>
+        <Definition>2nd place.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#3_ranking_ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#3_ranking_">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Ranking"/>
+        <Definition>3rd place.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#4_ranking_ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#4_ranking_">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Ranking"/>
+        <Definition>4th place.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#5_ranking_ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#5_ranking_">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Ranking"/>
+        <Definition>5th place.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#6_ranking_ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#6_ranking_">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Ranking"/>
+        <Definition>6th place.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#7_ranking_ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#7_ranking_">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Ranking"/>
+        <Definition>7th place.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#8_ranking_ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#8_ranking_">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Ranking"/>
+        <Definition>8th place.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#9_ranking_ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#9_ranking_">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Ranking"/>
+        <Definition>9th place.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Chi_Chi_DeVayne[a]_dragname -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Chi_Chi_DeVayne[a]_dragname">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Name"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#has_drag_style"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Fashion_Queen_dragtype"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_season"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Season_8_season"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_state"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Louisiana_State"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#placed"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#4_ranking_"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>A drag performer from Louisiana. She competed on the 8th season of Rupaul&apos;s Drag Race. She finished 4th.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Eureka[a]_dragname -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Eureka[a]_dragname">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Name"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#has_drag_style"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Pageant_Queen_dragtype"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_season"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Season_9_season"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_state"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Tennessee_State"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#placed"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#11_ranking_"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>A drag performer from Tennessee. She competed on the 9th season of Rupaul&apos;s Drag Race. She finished 11th.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Katya[a]_dragname -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Katya[a]_dragname">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Name"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#has_drag_style"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Comedy_Queen_dragtype"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_season"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Season_7_season"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_state"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Massachusetts_State"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#placed"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#5_ranking_"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>A drag performer from Massachusetts. She competed on the 7th season of Rupaul&apos;s Drag Race. She finished 5th.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Nina_Bo&apos;nina_Brown_dragname -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Nina_Bo&apos;nina_Brown_dragname">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Drag_Name"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#has_drag_style"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Fashion_Queen_dragtype"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_season"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Season_9_season"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#is_from_state"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Georgia_State"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#placed"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#6_ranking_"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>A drag performer from Georgia. She competed on the 9th season of Rupaul&apos;s Drag Race. She finished 6th.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Arizona_State"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#California_State"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Florida_State"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Georgia_State"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Illinois_State"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Iowa_State"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Louisiana_State"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Massachusetts_State"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Nevada_State"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#New_York_State"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Puerto_Rico_State"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Tennessee_State"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Texas_State"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Washington_State"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Wisconsin_State"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Comedy_Queen_dragtype"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Fashion_Queen_dragtype"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Pageant_Queen_dragtype"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Season_7_season"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Season_8_season"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#Season_9_season"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#1_ranking_"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#10_ranking_"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#11_ranking_"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#12_ranking_"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#13_ranking_"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#14_ranking_"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#2_ranking_"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#3_ranking_"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#4_ranking_"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#5_ranking_"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#6_ranking_"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#7_ranking_"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#8_ranking_"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/laurajones/ontologies/2018/2/dragrace#9_ranking_"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
